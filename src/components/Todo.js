@@ -17,6 +17,7 @@ function Todo() {
     if (filter === "ALL") return true;
     if (filter === "TODO") return !item.done;
     if (filter === "DONE") return item.done;
+    return null;
   });
 
   const handleCheck = (checked) => {

@@ -25,7 +25,7 @@ function Upload({ userImage, onSletctedImage }) {
     } else {
       return (
         <div>
-          <img src={imageUrl} />
+          <img src={imageUrl} alt="" />
         </div>
       );
     }

@@ -29,8 +29,8 @@ function App() {
     auth.signOut();
   };
 
-  const handleImageChanged = async (downlodUrl) => {
-    await updateUser(user, downlodUrl);
+  const handleImageChanged = async (downloadUrl) => {
+    await updateUser(user, downloadUrl);
   };
 
   const HeaderContent = () => {
